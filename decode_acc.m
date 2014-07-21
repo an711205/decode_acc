@@ -5,7 +5,7 @@ close all;
 %%
 [FileName1 , PathName1] = uigetfile('*.xlsx','');
 [data_catch] = xlsread([PathName1 FileName1]);
-
+%%
 %{
 注意：EXCEL檔案的第一列讀不出來，會比真正的輸出檔案少一列。
 29是讀出21列無用資訊並以最前8列當作一組完整訊號長度估算解碼應該從何處開始解(第一組若剛好為第22~29列則不算)。
