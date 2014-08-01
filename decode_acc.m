@@ -2,7 +2,7 @@ clc;
 clear all;
 close all;
 
-%%
+%%明安到此一遊
 [FileName1 , PathName1] = uigetfile('*.xlsx','');
 [data_catch] = xlsread([PathName1 FileName1]);
 %%
